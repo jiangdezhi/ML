@@ -14,6 +14,12 @@ Caffe
 Torch
 SciKit-learn
 MXNet
+
+## 3）常用统计学分布
+### 1)正态性和方差齐性检测：
+正态性检测：a.hist图；b.QQ图；c.shepiro-wilk或shapiro-francika检验
+方差齐性检测：a.F检验(要求为正太分布，var.test());b.bartlett(要求为正太分布，2组以上的样本）；c.levene检验（不要求正态分布，样本组数也不要求，推荐）
+
 # 2.机器学习的工具
 ## 1）常用基本框架
 ## 2）python机器学习库
